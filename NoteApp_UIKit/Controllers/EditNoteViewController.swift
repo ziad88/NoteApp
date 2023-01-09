@@ -23,7 +23,7 @@ class EditNoteViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        title = selectedNote.title
         if(selectedNote != nil) {
             txtView.text = selectedNote.text
         }

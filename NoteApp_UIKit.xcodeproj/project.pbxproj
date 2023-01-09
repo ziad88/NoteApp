@@ -41,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7B5D85229646D0400BCC492 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B7DB3B5D295C61EB00CA6164 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B7B5D85329646D0D00BCC492 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7DB3B60295C61EB00CA6164 /* NoteApp_UIKit.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B7DB3B4B295C61EA00CA6164 = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +78,12 @@
 			children = (
 				B7DB3B57295C61EA00CA6164 /* AppDelegate.swift */,
 				B7DB3B59295C61EA00CA6164 /* SceneDelegate.swift */,
+				B7B5D85329646D0D00BCC492 /* Model */,
+				B7B5D85229646D0400BCC492 /* View */,
 				B7DB3B6E295C638100CA6164 /* Controllers */,
-				B7DB3B5D295C61EB00CA6164 /* Main.storyboard */,
 				B7DB3B63295C61EE00CA6164 /* Assets.xcassets */,
 				B7DB3B65295C61EE00CA6164 /* LaunchScreen.storyboard */,
 				B7DB3B68295C61EE00CA6164 /* Info.plist */,
-				B7DB3B60295C61EB00CA6164 /* NoteApp_UIKit.xcdatamodeld */,
 			);
 			path = NoteApp_UIKit;
 			sourceTree = "<group>";
