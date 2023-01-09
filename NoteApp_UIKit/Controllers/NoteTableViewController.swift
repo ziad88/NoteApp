@@ -18,6 +18,7 @@ class NoteTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.backgroundView = UIImageView(image: UIImage(named: "bg4"))
         loadItems()
     }
 

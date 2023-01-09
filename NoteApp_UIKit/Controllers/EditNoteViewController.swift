@@ -23,6 +23,7 @@ class EditNoteViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        txtView.backgroundColor = UIColor(named: "D8D9CF")
         title = selectedNote.title
         if(selectedNote != nil) {
             txtView.text = selectedNote.text
